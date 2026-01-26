@@ -14,8 +14,8 @@ Two low-complexity descriptors were chosen for their physical explainability:
 * **Temporal Domain (Energy Ratio):** The ratio of RMS deviation to total RMS energy, highlighting the "bursty" nature of speech compared to continuous noise.
 
 ### Dataset
-* **Voice:** LibriSpeech dataset.
-* **Noise:** SONYC Urban Sound Tagging dataset.
+* **Voice:** LibriSpeech dataset (training set of 100 hours "clean" speech) : [link](https://www.openslr.org/12) 
+* **Noise:** SONYC Urban Sound Tagging dataset : [link](https://zenodo.org/records/3966543)
 * **Preprocessing:** Speech samples were mixed with urban noise at a "noise factor" of 2 (approx. -6 dB SNR) to simulate high-stress real-world conditions.
 
 ## 3. Results and Comparison
